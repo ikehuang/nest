@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+#header {
+	height:20%;
+	background:url(/images/logo.png) 30% 5% no-repeat;
+}
+
+#menu {
+	position:absolute;
+	right:10%;
+	top:0;
+	border:2% solid black;
+	border-top:none;
+	border-collapse:1px solid black;
+}

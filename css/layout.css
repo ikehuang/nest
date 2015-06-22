@@ -1,0 +1,335 @@
+@CHARSET "UTF-8";
+body {
+	font-size:12px;	
+	font-family:arial;
+	width:1280px;
+	margin:0 auto;
+}
+
+a,
+a:visited {
+	color:black;
+	text-decoration:none;
+}
+
+#header {
+	height:200px;
+	background:url(/images/logo.png) 15% 5% no-repeat;
+}
+
+#menu {
+	position:absolute;
+	right:10%;
+	top:0;
+	border-top:none;
+	border-collapse: collapse;
+	text-align:center;
+	border:5px solid black;
+}
+
+#menu td {
+	border:3px solid black;
+	font-size:2em;	
+}
+
+#menu #menu_contact_td {
+	background:black;
+	color:white;
+	padding:5px 10px;	
+	font-size:1.6em;
+	font-weight:bold;
+	letter-spacing:2px;
+	border-bottom:5px solid black;	
+}
+
+#menu #menu_contact_td a,
+#menu #menu_contact_td a:visited {
+	color:white;
+}
+
+#menu #menu_about_us_td {
+	border-left:5px solid black;	
+	text-shadow: 2px 2px black;
+	padding-left:0px;
+	padding-right:0px;	
+	padding:10px 10px;	
+}
+
+#menu #menu_inspiration_td {
+	font-weight:bold;
+	padding:50px 20px;
+	font-size:1.7em;
+}
+
+#menu #menu_shopping_cart_td {
+	font-weight:bold;	
+	padding:10px 40px;	
+}
+
+#menu #menu_how_to_td {
+	font-weight:bold;
+	padding:10px 50px;	
+	border-bottom:5px solid black;	
+}
+
+#menu #menu_product_td {
+	padding:10px 50px;	
+	font-weight:bold;
+  	letter-spacing: 2px;
+	padding-bottom:30px;
+	vertical-align:top;
+	font-size:2.3em;
+}
+
+#banner_wrapper {
+	position:relative;	
+}
+
+#banner_text {
+	position:absolute;
+	left:20%;
+	top:15%;
+}
+
+#banner_see_how {
+	position:absolute;
+	left:43%;
+	top:25%;
+}
+
+#banner {
+	width:100%;
+}
+
+#video_page iframe {
+	width:100%;
+	padding:20px;
+}
+
+#slideshow_page {
+	position:relative;
+}
+
+#slideshow_page_title {
+	position:absolute;
+	right:10%;
+	top:30%;
+	font-weight:bold;
+	font-size:3.5em;
+	color:white;	
+}
+
+#slideshow_link {
+	position:absolute;
+	top:30%;
+	right:10%;
+	border:none;
+	background:transparent;
+	cursor:pointer;
+}
+
+#product_page {
+	text-align:center;
+	padding:60px;
+	position:relative;
+}
+
+#product_page img {
+	float:left;
+	margin-right:40px;
+}
+
+#how_to_list,
+#how_to_wrapper {
+	float:left;
+	width:30%;
+}
+
+#how_to_wrapper {
+	width:65%;
+}
+
+#how_to_list li,
+#how_to_list2 li {
+	padding:3% 2%;
+}
+
+#how_to_list,
+#how_to_list2 {
+	list-style-type:none;	
+}
+
+#how_to_list2 li {
+	display:inline;
+}
+
+#how_to_video,
+#how_to_button {
+	margin-top:3%;
+	float:left;
+	width:60%;
+	text-align:center;
+}
+
+#how_to_button a {
+	margin:10%;
+	display:block;
+	
+}
+
+#how_to_button {
+	width:20%;
+}
+
+#qrcode {
+	vertical-align:middle;
+	float:left;
+	margin-left:10%;
+	margin-top:4%;	
+}
+
+#contact_us_bar_h3 {
+	width:100%;
+}
+
+#contact_us_form {
+	margin-left:10%;	
+	margin-top:2%;
+	float:left;
+}
+
+#contact_us_form th {
+	font-weight:bold;
+	font-size:1.5em;
+	font-weight:bold;
+	text-align:left;
+}
+
+
+#contact_us_form td {
+	padding:10px;
+}
+
+#contact_us_form textarea,
+#contact_us_form input {
+	background:#eee	;
+	border:none;
+	font-size:1.5em;	
+	width:400px;
+	padding:10px;	
+}
+
+#contact_us_form button {
+	border:none;
+	background:transparent;
+}
+
+.slideshow_caption {
+	position:absolute;
+	font-size:4em;
+	left:5%;
+	top:5%;
+	color:white;
+	z-index:9999;
+	background:white;
+	border:5px solid black;
+	color:black;
+	padding:10px;
+}
+
+#product_list_btn {
+	border:3px dotted black;
+	border-left:0;
+	border-right:0;	
+	padding:1%;
+	padding-left:3%;
+}
+
+#product_description {
+	float:left;
+	width:15%;
+	color:black;
+	font-weight:bold;
+	padding:2.5%;
+}
+
+#product_list {
+	float:left;
+	width:75%;
+	margin-left:3%;	
+	min-height:300px;
+}
+
+.product img {
+	width:100%;
+}
+
+.product p {
+	margin:0;
+	padding:0;	
+}
+
+.product {
+	float:left;
+	width:29%;
+	margin:2%;
+	text-align:left;
+	margin-bottom:5%;
+	line-height:1.5;
+	font-size:1.5em;
+	display:block;
+}
+
+.product_images {
+	float:left;
+	width:55%;
+}
+
+.product_images img { 
+	width:100%;
+}
+
+.product_images .product_img {
+	width:25%;
+	margin:3% 1%;
+}
+
+.product_wrapper {
+	display:none;
+}
+
+.product_info {
+	float:left;
+	margin-left:3%;
+	width:40%;
+}
+
+.product_info .price {
+	font-size:4em;
+	line-height:1.5;
+	margin:0;
+	padding:0;	
+}
+
+.product_info .description {
+	font-size:2em;	
+	line-height:1.5;	
+	margin:0;
+	padding:0;
+}
+
+.product_info h3 {
+	margin:0;
+	padding:0;	
+	font-size:4em;
+	line-height:1.5;
+}
+
+#footer {
+	margin-top:3%;
+	padding:8% 0;
+	text-align:center;
+	color:white;
+	background:#aaa;
+	font-size:3em;
+}
